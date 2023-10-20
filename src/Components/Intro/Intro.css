@@ -60,6 +60,19 @@
     height: 1rem;
 }
 
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 3rem;
+}
+
+
 @media screen and (max-width:840px){
     .bg{
         right: -35vw
