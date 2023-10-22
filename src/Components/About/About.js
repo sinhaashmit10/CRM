@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import resume from '../../assets/ASHMIT_RESUME.pdf';
 
 function About() {
   return (
@@ -29,8 +30,8 @@ function About() {
             </div>
       </div>
       <a
-        href="/.ASHMIT_RESUME.pdf" // Replace with the actual path to your PDF file
-        download="Ashmit_Resume.pdf" // Specifies the filename when downloaded
+        href={resume} // Replace with the actual path to your PDF file
+        download // Specifies the filename when downloaded
       >
         <button className="cvBtn">
           Download CV
