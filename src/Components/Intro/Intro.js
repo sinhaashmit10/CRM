@@ -12,8 +12,8 @@ const Intro = () => {
             <p className="introPara">I'm a skilled Front-End Developer with experience in creating visually appealing and user-friendly websites</p>
             {/* <Link><a href='https://www.linkedin.com/in/ashmitsinha'><button className="btn"><img className='btnImg' src="./hireme.png" alt="" />Hire Me</button></a></Link> */}
             <div className="links">
-            <a href="https://www.instagram.com/sinhaashmit25" target="_blank" rel="noopener noreferrer">
-              <img src="./insta.png" alt="Insta" className="link" />
+            <a href="https://twitter.com/sinhaashmit25" target="_blank" rel="noopener noreferrer">
+              <img src="./twitter.png" alt="Insta" className="link" />
             </a>
             <a href="https://www.linkedin.com/in/ashmitsinha" target="_blank" rel="noopener noreferrer">
               <img src="./linkedin.png" alt="Linkedin" className="link" />
