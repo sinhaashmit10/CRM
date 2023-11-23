@@ -12,8 +12,8 @@
     z-index: -1;
     top: -4rem;
     right: 0;
-    object-fit: cover;
-    height: 100vh;
+    /* object-fit: cover; */
+    height: 80vh;
     width: 80vh;
     margin-top: 5rem;
     filter: brightness(30%);
@@ -30,10 +30,6 @@
     justify-content: center;
 }
 
-.hello{
-    font-size: 1.75rem;
-    font-weight: 100;
-}
 
 .introName{
     color: red;
@@ -43,6 +39,7 @@
     font-size: medium;
     font-weight: 300;
     width: 30rem;
+    color: white;
 }
 
 .btn{
@@ -65,14 +62,6 @@
     flex-wrap: wrap;
 }
 
-.link{
-    object-fit: cover;
-    height: 2.5rem;
-    width: 2.5rem;
-    margin-top: 3rem;
-    margin-right: 1.5rem;
-}
-
 
 @media screen and (max-width:840px){
     .bg{
@@ -80,9 +69,7 @@
     }
     .introContent{
         font-size: 8vw;
-    }
-    .hello{
-        font-size: 4vw;
+        max-width: 80vw;
     }
 }
 

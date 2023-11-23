@@ -10,17 +10,6 @@
     margin: 5rem auto;
 }
 
-.aboutContent {
-    display: flex;
-    flex-direction: row; /* Change the direction to column */
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text horizontally */
-    margin: 1rem;
-    /* padding: 1.5rem 2rem; */
-    border-radius: 0.5rem;
-  }
-  
-  
 .aboutTitle{
     font-size: 3rem;
     font-weight: 600;
@@ -29,53 +18,54 @@
 }
 
 .aboutDesc{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     font-weight: 400;
     font-size: 1rem;
-    max-width: 35rem;
+    max-width: 50rem;
     padding: 0 2rem;
+}
+
+.aboutBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.aboutBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: rgb(50, 50, 50);
 }
 
 .aboutImg{
     object-fit: cover;
-    height: 30vh;
-    width: 30vh;
-}
-
-.experience{
-    display: flex;
-    margin-top: 1.5rem;
-    margin-left: 1.95rem;
-    justify-content: space-evenly;
-    max-width: 35rem;
-}
-
-.title{
-    margin-right: 2rem;
-}
-
-.text{
-    font-size: 0.7rem;
-    max-width: 5rem;
-    margin-right: 2rem;
-}
-
-.cvBtn{
-    margin-top: 0.5rem;
     height: 3rem;
-    width: 10rem;
-    background: red;
-    color: white;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
+    width: 3rem;
+    margin-right: 2rem;
 }
 
-.cvBtn img{
-    height: 1.25rem;
-    width: 1.25rem;
-    margin-left: 0.65rem;
-    vertical-align: middle;
+.aboutText>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width:720px){
+    .aboutText>p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px){
+    .aboutText>p{
+        font-size: 3vw;
+    }
+    .aboutImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .aboutText>h2{
+        font-size: 5vw;
+    }
 }

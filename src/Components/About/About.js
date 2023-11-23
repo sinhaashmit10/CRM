@@ -1,46 +1,43 @@
-import React from 'react';
-import './About.css';
-import resume from '../../assets/ASHMIT_RESUME.pdf';
+import React from 'react'
+import './About.css'
 
-function About() {
+const Skills = () => {
   return (
     <section id='about'>
-      <div className="aboutTitle">About Me</div>
-      
-      <img src="./head.png" alt="" className="aboutImg" />
-      <div className="aboutContent">
-        <div className="aboutTitleExp">
-            <div className="aboutDesc">A passionate and driven Computer Science Engineering student at Vellore Institute of Technology-AP and an aspiring Front-End Developer. 
-                                       Passionate about crafting pixel-perfect, user-friendly web experiences.
-            </div>
-                <div className="experience">
-                <div className="one">
-                    <h2 className="title">03+</h2>
-                    <p className="text">Months Experience</p>
-                </div>
-                <div className="two">
-                    <h2 className="title">02+</h2>
-                    <p className="text">Internships Complete</p>
-                </div>
-                <div className="three">
-                    <h2 className="title">05+</h2>
-                    <p className="text">Projects Completed</p>
-                </div>
+        <span className="aboutTitle">About Us</span>
+        <span className="aboutDesc">A CRM website serves as a centralized platform for managing and organizing customer interactions and relationships. It enables businesses to track customer information, communication history, and preferences in one place. With features like lead management and task tracking, it streamlines sales and marketing processes, fostering better customer engagement and retention. Ultimately, a CRM website enhances overall business efficiency and helps in delivering personalized experiences to customers.</span>
+        <div className="aboutBars">
+            <div className="aboutBar">
+                <img src="./business.svg" alt="" className="aboutImg" /> {/* <a href="https://www.flaticon.com/free-icons/web-page" title="web page icons">Web page icons created by rukanicon - Flaticon</a> */}
+                <div className="aboutText">
+                    <h2>Small Business</h2>
+                    <p>Sales, service, and email outreach tools in a single app.</p>
                 </div>
             </div>
-      </div>
-      <a
-        href={resume} // Replace with the actual path to your PDF file
-        download // Specifies the filename when downloaded
-      >
-        <button className="cvBtn">
-          Download CV
-          <img src="./download.svg" alt="Download Icon" />
-        </button>
-      </a>
-
+            <div className="aboutBar">
+                <img src="./growth.svg" alt="" className="aboutImg" />
+                <div className="aboutText">
+                    <h2>Sales Cloud</h2>
+                    <p>Close more deals and speed up growth with the #1 CRM.</p>
+                </div>
+            </div>
+            <div className="aboutBar">
+                <img src="./service.svg" alt="" className="aboutImg" />
+                <div className="aboutText">
+                    <h2>Service Cloud</h2>
+                    <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                </div>
+            </div>
+            <div className="aboutBar">
+                <img src="./customers.svg" alt="" className="aboutImg" />
+                <div className="aboutText">
+                    <h2>Marketing Cloud</h2>
+                    <p>Build customer relationships for life with data-first digital marketing.</p>
+                </div>
+            </div>
+        </div>
     </section>
-  );
+  )
 }
 
-export default About;
+export default Skills
