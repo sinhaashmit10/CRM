@@ -1,0 +1,40 @@
+#instructions{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.instructionsTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #18392b;
+}
+
+.instructionsDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.instructionsImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instructionsImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0.25rem;
+}
+

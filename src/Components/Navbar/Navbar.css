@@ -1,8 +1,8 @@
 .navbar{
-    background: rgb(30, 30, 30);
+    background: #18392b;
     height: 5rem;
     width: 100vw;
-    max-width: 80rem;
+    max-width: 100rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -24,9 +24,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color: red;
+    color: 	#588b76;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid 	#588b76;
 }
 
 .desktopMenuBtn{
@@ -48,8 +48,8 @@
 }
 
 .active{
-    color: red;
-    border-bottom: 3px solid red;
+    color: 	#588b76;
+    border-bottom: 3px solid 	#588b76;
     padding-bottom: 0.5rem;
 }
 

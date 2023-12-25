@@ -7,11 +7,10 @@ const Intro = () => {
   return (
     <section id="intro">
         <div className="introContent"> 
-            <span className="introName">Data + AI + CRM + Trust = more sales and happier customers.</span>
-            <p className="introPara">Discover how unified data and trusted AI help you connect with customers in a whole new way.</p>
-            {/* <Link><a href='https://www.linkedin.com/in/ashmitsinha'><button className="btn"><img className='btnImg' src="./hireme.png" alt="" />Hire Me</button></a></Link> */}  
+            <span className="introName">Welcome to QueryHub</span>
+            <p className="introPara">your go-to platform for seamless database queries.</p>  
         </div>
-        <img src="./crm.png" alt="" className="bg" />
+        <img src="./database.svg" alt="" className="bg" />
     </section>
   )
 }
