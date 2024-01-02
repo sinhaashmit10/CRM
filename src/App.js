@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Instructions from "./Components/Instructions/Instructions"
 import Support from './Components/Support/Support';
-
+import Form from './Components/Form/Form'
 
 function App() {
   return(
@@ -14,6 +14,7 @@ function App() {
       <About/>
       <Instructions/>
       <Support/>
+      <Form/>
     </div>
   )
 }
